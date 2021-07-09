@@ -5,7 +5,7 @@ ADD *.jar /fzyjpa.jar
 # 运行过程中创建一个mall-tiny-docker-file.jar文件
 RUN bash -c 'touch /fzyjpa.jar'
 # 声明服务运行在8089端口
-EXPOSE 8080
+EXPOSE 8081
 # 指定docker容器启动时运行jar包
 ENTRYPOINT ["java", "-jar","/fzyjpa.jar"]
 # 指定维护者的名字
