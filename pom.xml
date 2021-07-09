@@ -108,7 +108,7 @@
                     <dockerDirectory>${project.basedir}</dockerDirectory>
 
                     <!--指定远程docker 地址-->
-                    <dockerHost>http://47.98.212.16:2375</dockerHost>
+                    <dockerHost>http://47.98.212.16:2376</dockerHost>
 
                     <!-- 这里是复制 jar 包到 docker 容器指定目录配置 -->
                     <resources>
